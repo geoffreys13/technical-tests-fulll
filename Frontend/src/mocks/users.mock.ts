@@ -1,0 +1,48 @@
+import { User } from "../models/searchUsersResponse.interface";
+
+export const mockUsersData: User[] = [
+  {
+    login: "ge",
+    id: 4415,
+    node_id: "MDQ6VXNlcjQ0MTU=",
+    avatar_url: "https://avatars.githubusercontent.com/u/4415?v=4",
+    gravatar_id: "",
+    url: "https://api.github.com/users/ge",
+    html_url: "https://github.com/ge",
+    followers_url: "https://api.github.com/users/ge/followers",
+    following_url: "https://api.github.com/users/ge/following{/other_user}",
+    gists_url: "https://api.github.com/users/ge/gists{/gist_id}",
+    starred_url: "https://api.github.com/users/ge/starred{/owner}{/repo}",
+    subscriptions_url: "https://api.github.com/users/ge/subscriptions",
+    organizations_url: "https://api.github.com/users/ge/orgs",
+    repos_url: "https://api.github.com/users/ge/repos",
+    events_url: "https://api.github.com/users/ge/events{/privacy}",
+    received_events_url: "https://api.github.com/users/ge/received_events",
+    type: "User",
+    site_admin: false,
+    score: 1,
+  },
+  {
+    login: "geohot",
+    id: 72895,
+    node_id: "MDQ6VXNlcjcyODk1",
+    avatar_url: "https://avatars.githubusercontent.com/u/72895?v=4",
+    gravatar_id: "",
+    url: "https://api.github.com/users/geohot",
+    html_url: "https://github.com/geohot",
+    followers_url: "https://api.github.com/users/geohot/followers",
+    following_url: "https://api.github.com/users/geohot/following{/other_user}",
+    gists_url: "https://api.github.com/users/geohot/gists{/gist_id}",
+    starred_url: "https://api.github.com/users/geohot/starred{/owner}{/repo}",
+    subscriptions_url: "https://api.github.com/users/geohot/subscriptions",
+    organizations_url: "https://api.github.com/users/geohot/orgs",
+    repos_url: "https://api.github.com/users/geohot/repos",
+    events_url: "https://api.github.com/users/geohot/events{/privacy}",
+    received_events_url: "https://api.github.com/users/geohot/received_events",
+    type: "User",
+    site_admin: false,
+    score: 1,
+  },
+];
+
+export const mockEmptyUserData: User[] = [];

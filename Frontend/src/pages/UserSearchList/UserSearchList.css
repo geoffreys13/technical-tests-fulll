@@ -1,0 +1,30 @@
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.user-search-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+  border: 1px solid red;
+  padding: 10px 15px 10px 15px;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}

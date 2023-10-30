@@ -1,0 +1,40 @@
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fs-sm {
+  font-size: 12px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-y {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.button {
+  background-color: #02a5fc;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
